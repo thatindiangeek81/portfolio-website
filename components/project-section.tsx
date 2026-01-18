@@ -231,7 +231,7 @@ const ProjectsSection = () => {
             <div className="flex gap-3 mt-2">
                 <Button asChild size="sm" variant="outline" className="gap-2 hover:text-primary">
                       <a 
-      href="https://github.com/thatindiangeek81/notrace" 
+      href="https://github.com/thatindiangeek81/portfolio-website" 
       target="_blank" 
       rel="noopener noreferrer"
       className="flex items-center gap-2"
