@@ -1,4 +1,4 @@
-import { BookOpen, Brain, Code2, Database, Layers, Server } from "lucide-react";
+import { BookOpen, Brain, Code2, Database, ExternalLink, Layers, Server } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function Skills() {
@@ -84,7 +84,7 @@ export default function Skills() {
 
           {/* DSA */}
           <Card className="md:col-span-2 transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-md hover:border-primary/40">
-            <CardContent className="p-4 h-full flex flex-col justify-between -mt-2 mb-3">
+            <CardContent className="p-4 h-full flex flex-col justify-between -mt-5 mb-3">
               <div className="flex items-center gap-2 -mt-2 mb-3">
                 <Brain className="w-5 h-5 text-primary" />
                 <h3 className="text-base font-bold">
@@ -104,7 +104,17 @@ export default function Skills() {
                     Rating
                   </div>
                 </div>
+               
               </div>
+               <div className="flex justify-center py-2">
+                  <a href="https://leetcode.com/u/NYD2IAVI2U/">
+                      <span className="flex items-center gap-1.5 text-sm text-primary font-medium cursor-pointer hover:underline">
+    <ExternalLink className="w-4 h-4" />
+    Visit Account
+  </span>
+
+                    </a>
+                </div>
             </CardContent>
           </Card>
 
